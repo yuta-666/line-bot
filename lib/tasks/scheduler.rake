@@ -1,4 +1,4 @@
-# namespace :scheduler do
+namespace :scheduler do
 
   desc "This task is called by the Heroku scheduler add-on"
 task :update_feed => :environment do
@@ -59,4 +59,4 @@ task :update_feed => :environment do
   "OK"
 end
 
-# end
+end
